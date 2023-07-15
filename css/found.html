@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 not found</title>
+    <style>
+        header h3{
+            color: #333;
+            font-family: Inconsolata;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            text-transform: uppercase;
+            margin-left: 80px;
+            margin-top: 40px;
+        }
+        main{
+            margin-top: 200px;
+        }
+        .main-found{
+          
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 80px;
+            margin: 0 auto;
+        }
+        .img-found img{
+            width: 220px;
+        }
+        .text-found > h3{
+            color:  #333;
+            font-family: Space Mono;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -2.24px;
+            margin-bottom: 36px;
+        }
+        .text-found > p{
+            color: #4F4F4F;
+            font-family: Space Mono;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+           letter-spacing: -0.84px; 
+        }
+        .btn-button{
+            background: #333;
+            color: #fff;
+            font-size: 14px;
+            padding: 12px 17px;
+            border-radius: 5px;
+            margin-top: 64px;
+        }
+        footer{
+            margin-top: 250px;
+        }
+        footer > p{
+            color: #BDBDBD;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: normal;
+        }
+        /* media query */
+        @media screen and (max-width:576px){
+            .main-found{
+                flex-direction: column;
+            }
+            .text-found{
+                padding: 5px;
+            }
+            
+        }
+
+
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h3>404 NOT FOUND</h3>
+    </header>
+    <main>
+        <section class="main-found">
+            <div class="img-found">
+                <img src="/images/p1.jpg"  alt="putul">
+            </div>
+            <div class="text-found">
+                <h3>I have bad news for you</h3>
+                <P>The page you are looking for might be removed or is temporarily unavailable</P>
+                <button class="btn-button">Back to homepage</button>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+     <P>created by username - devChallenges.io</P>
+    </footer>
+    
+</body>
+</html>
